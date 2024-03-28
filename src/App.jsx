@@ -10,6 +10,7 @@ import Header from './components/common/header/header'
 function App() {
   const HomePage = lazy(()=> import("./pages/home"));
   const ServicePage = lazy(()=> import("./pages/services"))
+  const Work = lazy(()=> import("./pages/work"));
 
   return (
     <div className='App'>
@@ -18,6 +19,7 @@ function App() {
         <Routes>
           <Route path='/' Component={HomePage} />
           <Route path='/services' Component={ServicePage} />
+          <Route path='/work' Component={Work} />
         </Routes>
       </Suspense>
       <Contact />
