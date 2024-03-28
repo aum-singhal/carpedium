@@ -17,6 +17,7 @@
         .header-item{
             padding: .3rem 1rem;
             cursor: pointer;
+            color: #333333;
         }
 
         .selected{

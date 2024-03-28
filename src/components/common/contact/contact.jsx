@@ -3,7 +3,7 @@ import "./contact.css";
 import beforeComponent from '../../../assets/before-component.png'
 
 export default function Contact(){
-  return <div className="contact">
+  return <div className="contact" id="connect">
     <div className="before-wrapper">
       <img src={beforeComponent} alt="" />
     </div>

@@ -2,8 +2,8 @@ import { Fade } from "react-awesome-reveal";
 import "./bluebox.css";
 import beforeComponent from "../../../assets/before-component.png";
 
-export default function BlueBox({title, desc}){
-  return <div className="blue-box">
+export default function BlueBox({title, desc, id}){
+  return <div className="blue-box" id={id}>
     <div className="before-wrapper">
       <img src={beforeComponent} alt="" />
     </div>

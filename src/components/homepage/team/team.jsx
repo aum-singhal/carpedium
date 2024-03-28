@@ -21,7 +21,7 @@ export default function Team(){
     {name: "Nikhil Kumar", desg: "Creative Producer - The Visionary Virtuoso", img: person1, back: pinkp, desc: "With the foresight of a fortune teller and the creativity of a master painter, our Creative Producer envisions the impossible and turns it into captivating stories. They wield the power of imagination like a wizard, transforming ideas into cinematic wonders."},
   ]
 
-  return <div className="team flex-d-col flex-a-cen">
+  return <div className="team flex-d-col flex-a-cen" id="team">
     <div className="font-48 semi-bold">THE TEAM</div> 
 
       <div className="team-card-wrapper flex-d-col">
