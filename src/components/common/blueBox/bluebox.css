@@ -1,0 +1,14 @@
+.blue-box{
+  padding: 4rem 12% 6rem 12%;
+  background-color: #1F7AFF;
+  color: #f5f5f5;
+  gap: 3.5rem;
+  margin-top: 9rem;
+  position: relative;
+
+  &::before{
+    content: url("../../../assets/before-component.png");
+    position: absolute;
+    top: -8rem;
+  }
+}

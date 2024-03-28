@@ -1,0 +1,33 @@
+.footer{
+
+  .footer-section{
+    padding: 3rem 2.5rem;
+    gap: 1rem;
+
+    .item{
+      display: flex;
+      flex-direction: column;
+    }
+
+    .carpediem{
+      max-width: 43ch;
+    }
+
+    .address{
+      max-width: 40ch;
+    }
+
+    .large-gap{
+      gap: 1.5rem;
+    }
+
+    .small-gap{
+      gap: .75rem;
+    }
+  }
+
+  .footer-bottom{
+    border-top: 1px solid #D9D9D9;
+    padding: .5rem 2rem;
+  }
+}

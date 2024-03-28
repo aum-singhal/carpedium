@@ -1,0 +1,40 @@
+.hero{
+  padding: 5rem 3% 0rem 3%;
+
+  .heading{
+
+    .gradient-text{
+      background-image: linear-gradient(170deg , rgba(31,122,255,1) 31%, rgba(13,56,119,1) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+
+  .story{
+    gap: 4rem;
+    padding: 7rem 5% 2rem 5%;
+
+    .text{
+      font-style: italic;
+      color: blue;
+      -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: black;
+      background-image: linear-gradient(-225.08968203451deg , #1F7AFF 0%, #302C83 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .talk-button{
+      background: linear-gradient(-225.08968203451deg , #1F7AFF 0%, #302C83 100%);
+      box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+      padding: 3px;
+      border-radius: 3rem;
+
+      .wrapper{
+        background: white;
+        padding: .5rem 1.25rem;
+        border-radius: 3rem;
+      }
+    }
+  }
+}

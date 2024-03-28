@@ -1,0 +1,14 @@
+.clients{
+  gap: 4rem;
+  padding: 6rem 10%;
+  background-color: #F6F9FF;
+
+  .infinite-marquee{
+    display: flex;
+    gap: 0;
+
+    img{
+      margin: .125rem 2.5rem;
+    }
+  }
+}
