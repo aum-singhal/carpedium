@@ -5,6 +5,7 @@ import './App.css'
 import Footer from './components/common/footer/footer'
 import Contact from './components/common/contact/contact'
 import { Route, Routes } from 'react-router-dom'
+import Header from './components/common/header/header'
 
 function App() {
   const HomePage = lazy(()=> import("./pages/home"));
@@ -12,6 +13,7 @@ function App() {
 
   return (
     <div className='App'>
+      <Header />
       <Suspense>
         <Routes>
           <Route path='/' Component={HomePage} />
