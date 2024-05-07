@@ -23,7 +23,7 @@ captivating way.</div>
           Address
         </div>
         <div className="body font-14">
-        128, Versova Marg, Aram Nagar Part 1, Aram Nagar, Versova, Andheri West, Mumbai, Maharashtra 400061
+        B- 350A, Sushant Lok 1, Gurugram, Haryana 122002
         </div>
       </div>
       <div className="item speak large-gap">
@@ -31,8 +31,8 @@ captivating way.</div>
           Speak to Us
         </div>
         <div className="body flex-d-col small-gap">
-          <div className="font-14">9559123948</div>
-          <div className="font-14">carpediem@gmail.com</div>
+          <div className="font-14">+91-9891553636</div>
+          <div className="font-14">info@carpediemmedia.in</div>
         </div>  
       </div>
       <div className="item social flex-d-col small-gap">

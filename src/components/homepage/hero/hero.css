@@ -4,9 +4,12 @@
   .heading{
     
     .gradient-text{
-      background-image: linear-gradient(170deg , rgba(31,122,255,1) 31%, rgba(13,56,119,1) 100%);
+      background-image: linear-gradient( to right, rgba(31,122,255,1) 11%, rgba(13,56,119,1) 60%, rgba(31,122,255,1) 100%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
+      background-size: 200%;
+      background-position: left;
+      animation: animate-gradient 7s linear infinite;
     }
   }
   
@@ -33,11 +36,13 @@
     .text{
       font-style: italic;
       color: blue;
-      -webkit-text-stroke-width: 1px;
+      /* -webkit-text-stroke-width: 1px; */
       -webkit-text-stroke-color: black;
-      background-image: linear-gradient(-225.08968203451deg , #1F7AFF 0%, #302C83 100%);
+      background-image: linear-gradient(15deg , #1F7AFF 0%, #302C83 50%, #1F7AFF 100%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
+      background-size: 100% 400%;
+      animation: animate-gradient-vertical 12s linear infinite;
     }
 
     .talk-button{
@@ -50,7 +55,23 @@
         background: white;
         padding: .5rem 1.25rem;
         border-radius: 3rem;
+        color: #242424;
       }
+    }
+  }
+}
+
+.service-page{
+
+  .heading{
+
+    .gradient-text{
+      background-image: linear-gradient( to right, rgba(31,122,255,1) 11%, rgba(13,56,119,1) 60%, rgba(31,122,255,1) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-size: 200%;
+      background-position: left;
+      animation: animate-gradient 7s linear infinite;
     }
   }
 }
@@ -60,5 +81,29 @@
     transform: scale(50);
     margin: 3rem 0;
     border-radius: 0;
+  }
+}
+
+@keyframes animate-gradient{
+  0%{
+    background-position: left;
+  }
+  50%{
+    background-position: right;
+  }
+  100%{
+    background-position: left;
+  }
+}
+
+@keyframes animate-gradient-vertical{
+  0%{
+    background-position: top;
+  }
+  50%{
+    background-position: bottom;
+  }
+  100%{
+    background-position: top;
   }
 }

@@ -2,6 +2,7 @@ import "./hero.css";
 import arrow from "../../../assets/arrow_outward.png";
 import { Fade } from "react-awesome-reveal";
 import landingVideo from "../../../assets/landing-video.mp4";
+import { HashLink } from "react-router-hash-link";
 
 export default function Hero(){
   return <div className="hero">
@@ -16,17 +17,19 @@ export default function Hero(){
 
     <div className="story flex-d-col flex-a-cen">
       <Fade direction="right" triggerOnce>
-        <div className="text font-96 extra-bold text-upper text-center">
+        <div className="text font-96 bold text-upper text-center">
           we help you tell your story
         </div>
       </Fade>
 
       <Fade triggerOnce direction="up">
+        <HashLink to={"#connect"}>
         <div className="talk-button">
           <div className="wrapper flex-a-cen">
             Talk to us &nbsp;&nbsp; <img src={arrow} alt="" />
           </div>
         </div>
+        </HashLink>
       </Fade>
     </div>
   </div>
