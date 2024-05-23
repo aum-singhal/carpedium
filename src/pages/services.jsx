@@ -7,8 +7,7 @@ export default function ServicePage(){
 
   return <div className="service-page">
     <div style={{padding:"7rem 3% 1rem 3%"}} className="heading font-100 medium-bold">
-      Extraordinary <br />
-      Idea to <span className="gradient-text">Execution</span>
+    Extraordinary Ideas <br /> to Seamless <span className="gradient-text">Execution</span>
     </div>
 
     <BlueBox title={"OUR SERVICES"} desc={serviceDesc} />

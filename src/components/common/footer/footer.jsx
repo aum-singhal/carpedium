@@ -13,9 +13,7 @@ export default function Footer(){
           <img src={logo} alt="" />
         </div>
         <div className="body flex-d-col small-gap">
-          <div className="font-18 semi-bold">Navigate the ever evolving digital landscape</div>
-          <div className="font-14">To bring ones narratives to life in the most imaginative and 
-captivating way.</div>
+          <div className="font-18 semi-bold">Navigate the ever evolving digital landscape.</div>
         </div>
       </div>
       <div className="item address large-gap">
