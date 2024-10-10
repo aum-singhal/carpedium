@@ -4,7 +4,7 @@ import ashish from "../../../assets/team/ashish.jpg";
 import nikhil from "../../../assets/team/nikhil.jpg";
 import hasneet from "../../../assets/team/hasneet.jpg";
 import inderjot from "../../../assets/team/inderjot.jpg";
-import ishan from "../../../assets/team/inshan.jpg";
+import ishan from "../../../assets/team/ishan.jpg";
 import prashant from "../../../assets/team/prashant.jpg";
 import prince from "../../../assets/team/prince.jpg";
 import { Fade } from "react-awesome-reveal";
@@ -18,8 +18,8 @@ export default function Team(){
     {name: "Ashish Chaudhary", desg: "The Multifaceted Maestro of Cinematic Chaos", img: ashish, desc: "Introducing Ashish Chaudhary, our cinematic chameleon donning many hats, be it Assistant Director, Assistant Editor, and now mainly our Production Manager. With a diploma from the Digital Academy- The Film School, Gemini Studios, Mumbai, Ashish has been an integral part of numerous successful projects. From shaping narratives to managing chaos behind the scenes, he's the glue that holds our productions together. With credits on feature films like “Mona Darling” and “Hum bhi akele, tum bhi akele,” short film 'Know Your Enemy', “A Suitable Boy” and a music video for 'Fourhead Music' under his belt, Ashish is the wizard behind the curtains of our cinematic escapades."},
     {name: "Inderjot Kaur", desg: "Turning Deals into Blockbusters", img: inderjot, desc: "Meet Inderjot Kaur, our unstoppable force in sales and business development. With a knack for spotting opportunities and turning them into gold, Inderjot's journey has been nothing short of spectacular. With a resume that reads like a globe-trotting adventure, Inderjot's expertise spans the vast Asia Pacific markets, where she's forged lasting relationships and sealed major deals with her charm and finesse. She's the mastermind behind our national and international sales efforts, leveraging her expertise to open new doors and secure major projects. With a keen eye for opportunities and a natural flair for negotiation, Inderjot is the driving force behind our sales and marketing efforts, ensuring that every project is not just a success, but a blockbuster in the making."},
     {name: "Prashant Singh", desg: "The Creative Catalyst", img: prashant, desc: "Introducing Prashant, our Creative Lead, sculpting cinematic wonders with his artistic vision. From his pivotal role in the casting team for the Oscar-winning film 'Life of Pi' to his position as Associate Casting Director for the acclaimed series 'A Suitable Boy' by Mira Nair, Prashant's journey is nothing short of remarkable. He's also made significant contributions to feature films like 'Mona Darling' and 'Kanchi', collaborating closely with the Direction department to bring stories to life on the big screen."},
-    {name: "Noddy", desg: "Chief Cuddles Officer", img: person1, desc: "Noddy, our Chief Happiness Officer spreads joy faster than you can say fetch! With a tail that wags with boundless enthusiasm and a heart full of cuddles, Noddy's mission is to keep our team's spirits high. Whether it's doling out puppy kisses or impromptu play sessions, Noddy's infectious energy ensures that smiles in our office are never in short supply!"},
-    {name: "Elvy", desg: "Director of “Pawductivity”", img: person1, desc: "Elvy, our Director of Pawductivity, is on a mission to keep the team warm and fuzzy with an abundance of snuggles! With a paw-some talent for turning any moment into a cuddle-worthy occasion, Elvy's presence is like a fluffy cloud on a sunny day. From spontaneous cuddle breaks to orchestrating group hugs, Elvy's cuddle expertise ensures that our workplace is a haven of comfort and joy!"},
+    {name: "Noddy", desg: "Chief Cuddles Officer", desc: "Noddy, our Chief Happiness Officer spreads joy faster than you can say fetch! With a tail that wags with boundless enthusiasm and a heart full of cuddles, Noddy's mission is to keep our team's spirits high. Whether it's doling out puppy kisses or impromptu play sessions, Noddy's infectious energy ensures that smiles in our office are never in short supply!"},
+    {name: "Elvy", desg: "Director of “Pawductivity”", desc: "Elvy, our Director of Pawductivity, is on a mission to keep the team warm and fuzzy with an abundance of snuggles! With a paw-some talent for turning any moment into a cuddle-worthy occasion, Elvy's presence is like a fluffy cloud on a sunny day. From spontaneous cuddle breaks to orchestrating group hugs, Elvy's cuddle expertise ensures that our workplace is a haven of comfort and joy!"},
   ]
 
   return <div className="team flex-d-col flex-a-cen" id="team">
@@ -33,7 +33,6 @@ export default function Team(){
               <div className="left">
                 <div className="image-wrapper">
                   <img src={item.img} alt={item.name} className="person" />
-                  <img src={item.back} alt="" className="background" />
                 </div>
               </div>
               <div className="right flex-d-col">
